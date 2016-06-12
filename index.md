@@ -3,13 +3,14 @@ layout: default
 title: Index
 ---
 
-# Tools for the deployment process on Digitalocean (ubuntu server)
+# Tools for the deployment on Digitalocean (ubuntu server)
+![image-title-here](/img/posts_Schematics/cover.jpg){:class="img-responsive"}
 
 
 <br />
-0.You first have to go to this link [an external link](http://digitalocean.com/).
+0.You first have to open your browser and go to this link [an external link](http://digitalocean.com/).
 
-# Recommanded Tools(Essentials)
+# Recommended Tools(Essentials)
 
 <li> Virtual Private Server(Droplet)</li>
 <li> mysql-server</li>
