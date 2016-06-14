@@ -8,7 +8,7 @@ title: Phase1
 # Step One — Log In
 ![image-title-here](/img/posts_Schematics/createdSuccesfully.png){:class="img-responsive"}
 
-To create your first Droplet go to the DigitalOcean Control Panel and log in with your email and password. The create button will be right there on the first page: click on "Create Droplet".
+To create your first Droplet go to the Digital-Ocean Control Panel and log in with your email and password. The create button will be right there on the first page: click on "Create Droplet".
 
 
 <h3> Step Two — Select Droplet Image </h3><p>You can create your Droplet image from 4 possible categories:
