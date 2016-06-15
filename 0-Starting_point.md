@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lets Begin
+title: Where to start
 ---
 
 # 01.Now try to login on the left hand corner you will see login/signup button .
@@ -14,3 +14,10 @@ title: Lets Begin
 
 
 * Please do consult one of Codex mentors to invite you on Digital Ocean Account in order to have the login access.
+
+# 03.If you are in you should see this following screen.
+
+![image-title-here](/img/posts_Schematics/welcome.png){:class="img-responsive"}
+
+
+:smiley: *Yeah You managed to get in* :thumbsup:
