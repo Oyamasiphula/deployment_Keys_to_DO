@@ -60,3 +60,14 @@ NB. The First email notification you will receive it is going to be your account
 
 
 <p>There is a wide spectrum for prices, power, and storage capacity. The smallest and least expensive option starts at 512MB of RAM with 1 CPU and 20GB of SSD storage. The size options grow larger from there, all the way up to 64GB of RAM with 20 CPUs and 640GB of SSD storage. Should your needs change at a future point, you can adjust your Droplet's plan using the flexible and permanent resize options.</p>
+
+<h3 style="font-weight: bold;font-weight: bold;margin-bottom: -12px;text-decoration: underline;">Step Four - Select Your Droplet Region</h3>
+
+<p>You may choose the most effective region for your Droplet location. Although equally powerful, the best region to choose is the one nearest to you and your customers or other possible users. Selecting a more distant server location may increase your server latency without serving any practical purpose.</p>
+
+![image-title-here](/img/posts_Schematics/dropletregion.png){:class="img-responsive"}
+
+04.Then for this you need to know which region is the closest from your current region then for a our case we are currently in South Africa.Therefore on our case :us: `New York` is going be our best `datacenter` option to choose.
+
+<h3 style="font-weight: bold;font-weight: bold;margin-bottom: -12px;text-decoration: underline;">Step Five — Select Additional Options</h3>
+The Select additional options section allows you to select which features you would like your Droplet to have:
