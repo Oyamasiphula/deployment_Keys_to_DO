@@ -86,3 +86,8 @@ https://www.digitalocean.com/community/tutorials/digitalocean-backups-and-snapsh
 Select any of the settings you would like to enable. The Private Networking feature is very useful if you have multiple Droplets in the same datacenter that communicate with each other.
 
 `The following instruction is for later you can skip this part to step 7.`
+
+<h3 style="font-weight: bold;font-weight: bold;margin-bottom: -12px;">Step Six — Select SSH Keys (Optional)</h3>
+`Optional`: Select which SSH keys you would like to add to your new Droplet.
+
+![image-title-here](/img/posts_Schematics/extraOption.png){:class="img-responsive"}
