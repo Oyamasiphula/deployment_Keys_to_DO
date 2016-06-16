@@ -18,7 +18,7 @@ A virtual private server (VPS) is a virtual machine sold as a service by an Inte
 
 Note. You will be receiving email notifications from Digital Ocean.
 
-NB. The First email notification you will receive it is going to be your account credentials for that specific (*droplet*) you've just created.
+NB.`The First email notification you will receive it is going to be your account credentials for that specific (droplet) you've just created.`
 
 <h3 style="font-weight: bold;font-weight: bold;margin-bottom: -12px;">continuation ...  </h3>
 
@@ -60,7 +60,7 @@ NB. The First email notification you will receive it is going to be your account
 
 
 <p>There is a wide spectrum for prices, power, and storage capacity. The smallest and least expensive option starts at 512MB of RAM with 1 CPU and 20GB of SSD storage. The size options grow larger from there, all the way up to 64GB of RAM with 20 CPUs and 640GB of SSD storage. Should your needs change at a future point, you can adjust your Droplet's plan using the flexible and permanent resize options.</p>
-
+<br />
 <h3 style="font-weight: bold;font-weight: bold;margin-bottom: -12px;text-decoration: underline;">Step Four - Select Your Droplet Region</h3>
 
 <p>You may choose the most effective region for your Droplet location. Although equally powerful, the best region to choose is the one nearest to you and your customers or other possible users. Selecting a more distant server location may increase your server latency without serving any practical purpose.</p>
@@ -68,7 +68,7 @@ NB. The First email notification you will receive it is going to be your account
 ![image-title-here](/img/posts_Schematics/dropletregion.png){:class="img-responsive"}
 
 04.Then for this you need to know which region is the closest from your current region then for a our case we are currently in South Africa.Therefore on our case :us: `New York` is going be our best `datacenter` option to choose.
-
+<br />
 <h3 style="font-weight: bold;font-weight: bold;margin-bottom: -12px;text-decoration: underline;">Step Five — Select Additional Options</h3>
 The Select additional options section allows you to select which features you would like your Droplet to have:
 
@@ -86,8 +86,22 @@ https://www.digitalocean.com/community/tutorials/digitalocean-backups-and-snapsh
 Select any of the settings you would like to enable. The Private Networking feature is very useful if you have multiple Droplets in the same datacenter that communicate with each other.
 
 `The following instruction is for later you can skip this part to step 7.`
-
+<br />
 <h3 style="font-weight: bold;font-weight: bold;margin-bottom: -12px;">Step Six — Select SSH Keys (Optional)</h3>
 `Optional`: Select which SSH keys you would like to add to your new Droplet.
 
 ![image-title-here](/img/posts_Schematics/extraOption.png){:class="img-responsive"}
+
+<p>It is recommended that you set up SSH keys to authenticate to your Droplets because it provides better security than a basic password. For more information about setting up SSH keys with your DigitalOcean Droplets, refer to this tutorial.</p>
+<br />
+<h3 style="font-weight: bold;font-weight: bold;margin-bottom: -12px;text-decoration: underline;">Step Seven — Select the Number and Names of the Droplets to Create</h3>
+
+<p>Next, you can choose the number and names of the Droplets you wish to create. Depending on the number of Droplets currently in your account, you can create up to five Droplets that will use the configuration that you have selected. By default, a single Droplet is set to be created. You can adjust the number of Droplets to create be clicking the plus or minus buttons.</p>
+
+<p>Each Droplet must have a name. This name will be used in the DigitalOcean control panel and as the server's hostname. A default name will be provided for your Droplet(s) based on the options you have selected, but you can modify the name(s) to best suit your needs. You may want to use a Fully Qualified Domain Name (e.g. droplet1.example.com).</p>
+
+![image-title-here](/img/posts_Schematics/finalizeandcreate.png){:class="img-responsive"}
+
+* You can still change it to your custom name even when you're done creating it but Yes you need to be consistent when going through this process, as you might be able to change other team member's droplet name it is Therefore a must to be able to identify the exact droplet you created before taking any further action.
+
+NB.`If not sure which droplet do you own from the default digital Ocean droplet name, do ask any of codeX Mentors.`
