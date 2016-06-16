@@ -71,3 +71,18 @@ NB. The First email notification you will receive it is going to be your account
 
 <h3 style="font-weight: bold;font-weight: bold;margin-bottom: -12px;text-decoration: underline;">Step Five — Select Additional Options</h3>
 The Select additional options section allows you to select which features you would like your Droplet to have:
+
+![image-title-here](/img/posts_Schematics/additionalOpt.png){:class="img-responsive"}
+
+* `Private Networking`: Enables a private networking interface, in addition to the default public interface, that can only be accessed via the private network of other Droplets within the same datacenter.
+
+* `Backups`: Enables automatic backups of the Droplet — for more information about the backup service,click on the following link:
+https://www.digitalocean.com/community/tutorials/digitalocean-backups-and-snapshots-explained
+
+* `IPv6`: Enables IPv6 access for your Droplet.
+
+* `User Data`: Enables you to pass arbitrary data into the user-data key of the DigitalOcean Metadata service. This setting is required for CoreOS Droplets. To read more about user data, check out the tutorial on Droplet Metadata.
+
+Select any of the settings you would like to enable. The Private Networking feature is very useful if you have multiple Droplets in the same datacenter that communicate with each other.
+
+`The following instruction is for later you can skip this part to step 7.`
