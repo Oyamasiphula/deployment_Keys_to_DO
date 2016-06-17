@@ -117,3 +117,12 @@ NB.`If not sure which droplet do you own from the default digital Ocean droplet 
 After your Droplet is created, its root password will arrive in your email inbox and the Droplet will be set up. If you included an SSH key in the previous steps, you will not be emailed a root password — use your SSH private key to authenticate as the root user instead.</p>
 
 :smiley: With that, your server is ready !
+
+<br />
+<h3>Step Nine — Log In To Your Droplet</h3>
+
+# How :fearful: ?
+
+* The process is slightly different for Mac and Windows Computers:
+
+ In order to find out you can go to :arrow_right:  
