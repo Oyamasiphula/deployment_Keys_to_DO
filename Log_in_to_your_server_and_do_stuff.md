@@ -3,7 +3,6 @@ layout: default
 title: Log in to your droplet and Program Installations
 ---
 
-
 # `1`.Create a Safe Account to Run Your Code
 
 <h3>When you first set up your DigitalOcean droplet, you received instructions to log on using the root account. The instructions looked something like this:</h3>
@@ -21,3 +20,5 @@ example.
   To get started, update your Ubuntu server by running the commands below. Assuming that you already have SSH with root access to the server, run the commands below to update your server.<br />
   `sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove`
   The one-line command above updates Ubuntu repositories, updates existing installed packages and removes unnecessary packages from your systems.
+
+<h3>If the above info doesnt sound clear to then the following might be a good solution that will decrease your levels of uncertainties.</h3>
