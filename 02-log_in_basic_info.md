@@ -9,7 +9,7 @@ If you have recently created a DigitalOcean Droplet, and you are new to working 
 
 This quick tutorial will show you how to connect to your new Linux cloud server for the first time, by logging into it using an SSH client.
 
-<h3>Prerequisites</h3>
+# Prerequisites
 The prerequisites section describes everything that you need know about to follow this tutorial. Of course, you will need to have created a new Droplet through the DigitalOcean Control Panel.
 
 <br />
@@ -82,15 +82,27 @@ Now try connecting to your server again.
 
 * The authentication step involves providing a password and/or a private SSH key to prove that you are authorized to log in as root.
 
-If you added an SSH key to your Droplet, and you have the private key installed on your computer, OpenSSH will attempt to use the key to authenticate to the root account. If you used a key with a passphrase, you will need to provide the passphrase to complete the login process. At this point, if you are unable to log in, you may need to start your ssh-agent and add your SSH keys to it with the following command (assuming your key is called "id_rsa"), then go back to Step 1:
+If you added an SSH key to your Droplet, and you have the private key installed on your computer, OpenSSH will attempt to use the key to authenticate to the root account. If you used a key with a passphrase, you will need to provide the passphrase to complete the login process. At this point, if you are unable to log in, you may need to start your ssh-agent and add your SSH keys to it with the following command (assuming your key is called "id_rsa"), then go back to Step 1:arrow_up: :
 
 eval `ssh-agent -s`
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 `ssh-add ~/.ssh/id_rsa`
-If you did not add an SSH key to your Droplet, you will be prompted for the temporary password, and you will also be required to change it. Follow these steps to complete the login process:
 
-Copy the temporary password from the email, and paste it into the password prompt
-At the (current) UNIX password prompt, paste in the temporary password again
-At the Enter new UNIX password prompt, enter a strong password
+If you did not add an SSH key to your Droplet, you will be prompted for the temporary password, and you will also be required to change it.
+# Follow these steps to complete the login process:
+
+<h3>Copy the temporary password from the email, and paste it into the password prompt</h3>
+
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+At the (current) UNIX password prompt, paste in the temporary password again<br />
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+At the Enter new UNIX password prompt, enter a strong password<br />
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 At the Retype new UNIX password prompt, enter the same strong password that you just entered.
+
+![image-title-here](/img/posts_Schematics/sshforthefirsttime.png){:class="img-responsive"}
+
+* Don't forget the new password that you set.
+
+You're now logged in! Skip to the Where To Go From Here? section of this tutorial to read about what your next steps with your server should be.
