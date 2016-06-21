@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Log in to your droplet and Program Installations
+title: Logged, create user and Program Installations
 ---
 
 # `1`.Create a Safe Account to Run Your Code
@@ -18,6 +18,7 @@ example.
   Follow the instructions you received from DigitalOcean when your virtual server was setup and log on using the terminal. If you run your code using the root account, and if a hostile party compromises the code, that party could get total control of your VPS (Virtual Private Server). To avoid this, let's setup a safe account that can still perform root operations if we supply the appropriate password.
 
   To get started, update your Ubuntu server by running the commands below. Assuming that you already have SSH with root access to the server, run the commands below to update your server.<br />
+  <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
   `sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove`
   The one-line command above updates Ubuntu repositories, updates existing installed packages and removes unnecessary packages from your systems.
 
