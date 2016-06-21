@@ -18,7 +18,7 @@ The prerequisites section describes everything that you need know about to follo
 
 In order to connect to a remote Linux server via SSH, you must have following:
 
-`User name:` The remote user to log in as. The default admin user, or Superuser, on most Linux servers is root
+`User name:` The remote user to log in as. The default admin user, or Superuser, on most Linux servers is `root`
 Password and/or SSH Key: The password that is used to authenticate the user that you are logging in as. If you added a public SSH key to your droplet when you created it, you must have the private SSH key of the key pair (and passphrase, if it has one)
 
 `Server IP address:` This is the address that uniquely identifies your server on the Internet, and can be found in your DigitalOcean Droplets page
