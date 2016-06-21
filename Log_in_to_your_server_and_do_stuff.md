@@ -21,9 +21,7 @@ example.
   `sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove`
   The one-line command above updates Ubuntu repositories, updates existing installed packages and removes unnecessary packages from your systems.
 
-# If the above info doesn't sound clear to you, the following link might be a good solution that will decrease your levels of uncertainties.
-
-<p><a href="http://127.0.0.1:4000/02-log_in_basic_info.html">Basic info For a Begginer</a></p>
+<h3>If the above information doesn't sound clear to you,please reread from the following link</h3>[Basic info for Begginers](http://127.0.0.1:4000//02-log_in_basic_info.html).
 
 <h3> Now Lets Install some programs that will enable you to run your Web Applications.</h3>
 
