@@ -1,6 +1,6 @@
 ---
 layout: default
-title: create a safe server account
+title: Create a safe server user account
 ---
 
 # `1`.Create a Safe Account to Run Your Code
@@ -22,4 +22,4 @@ example.
   `sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove`
   The one-line command above updates Ubuntu repositories, updates existing installed packages and removes unnecessary packages from your systems.
 
-<h3>If the above information doesn't sound clear to you,please reread from the following link</h3>[Basic info for Begginers](http://127.0.0.1:4000//02-log_in_basic_info.html).
+<h3>If the above information doesn't sound clear to you,please reread from the following link</h3>[Install programs](http://127.0.0.1:4000//02-log_in_basic_info.html).
