@@ -105,4 +105,5 @@ At the Retype new UNIX password prompt, enter the same strong password that you 
 
 * Don't forget the new password that you set.
 
-You're now logged in! Skip to the Where To Go From Here? section of this tutorial to read about what your next steps with your server should be.
+You're now logged in! Where To Go From Here?  
+[Basic info for Begginers](http://127.0.0.1:4000//Log_in_to_your_server_and_do_stuff.html).
