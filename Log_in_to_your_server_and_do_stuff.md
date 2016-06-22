@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Logged, create user and Program Installations
+title: Initial Server Setup, create users and Program Installations
 ---
 
 # `1`.Create a Safe Account to Run Your Code
