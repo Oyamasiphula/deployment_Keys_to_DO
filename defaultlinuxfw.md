@@ -37,4 +37,40 @@ If your Ubuntu server has [IPv6](/glossary/ipv4andipv6info.html). enabled, ensur
 `sudo nano /etc/default/ufw`
 
 
-Then make sure the value of "IPV6" is to equal "yes". It should look like this:
+<h3>Then make sure the value of "IPV6" is to equal "yes". It should look like this:</h3>
+
+/etc/default/ufw excerpt
+
+
+...<br />
+IPV6=yes
+<br />
+...
+
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">Save and quit.
+
+ Hit Ctrl-X to exit the file, then Y to save the changes that you made, then <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">`ENTER` to confirm the file name.
+
+
+When UFW is enabled, it will be configured to write both IPv4 and IPv6 firewall rules.
+This tutorial is written with IPv4 in mind, but will work fine for IPv6 as long as you enable it.
+
+
+# Check UFW Status and Rules
+
+At any time, you can check the status of UFW with this command:
+`sudo ufw status verbose`
+By default, UFW is disabled so you should see something like this:
+<h3>Output:</h3>
+
+`Status: inactive`
+
+If UFW is active, the output will say that it's active, and it will list any rules that are set. For example, if the firewall is set to allow SSH (`port 22`) connections from anywhere, the output might look something like this:
+
+<h3>Output:</h3>
+<pre><code>Status: active
+Logging: on (low)
+</code></pre>
+
+<h3>Default:</h3> deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
