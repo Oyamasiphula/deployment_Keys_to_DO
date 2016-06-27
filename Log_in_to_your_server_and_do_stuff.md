@@ -5,7 +5,7 @@ title: Program Installation
 
 <h3> Now Lets Install some programs that will enable you to run your Web Applications.</h3>
 
-* <h3>1.Install GIT</h3>
+<h3>1.Install GIT</h3>
 
 Once you have logged on, install GIT (we are going to use GIT to sync our work from github so our projects could exist on our digitalOcean cloud server which is our [VPS/Droplet] )
 
@@ -16,7 +16,7 @@ The word sudo indicates that you want to run this command as root. You will be p
 sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove
 The one-line command above updates Ubuntu repositories, updates existing installed packages and removes unnecessary packages from your systems.
 
-* <h3>2.Install MySQL</h3>
+<h3>2.Install MySQL</h3>
 
 After installing Apache2, the next step is to install MySQL. The M in LAMP stands for MySQL and it’s a database server to host your website content.
 To install MySQL, run the commands below.
@@ -26,13 +26,13 @@ To install MySQL, run the commands below.
 
 When you run the above commands, you’ll be prompted to create a database root password. Type and confirm one to continue.
 
-# 3.Install Nodejs & NPM
+<h3>3.Install Nodejs & NPM</h3>
 
-<h3>Install nodejs:</h3>
+<h2>Install nodejs:</h2>
 3.a)<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
  `sudo apt-get install nodejs` <br />
 
-<h3>Then install npm:</h3>
+<h2>Then install npm:</h2>
 3.b)<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
  `sudo apt-get install npm`
 
@@ -52,7 +52,7 @@ Install PM2 by typing the following at the command line:<br />
 `sudo npm install pm2 -g`
 <br />
 
-* <h3>5.Install Nginx</h3>
+<h3>5.Install Nginx</h3>
 
 <h2>OVERVIEW</h2>
 
@@ -60,9 +60,9 @@ Nginx (pronounced "engine x") is a free, open-source, high-performance HTTP serv
 
 Following the steps below will show you how to install Nginx and test its functionality. Be sure to follow our more advanced how-to on configuring virtual hosts afterwards, which will give you the ability to serve multiple websites from your (VPS) Server.
 
-<h3>5.a) Install Nginx with command</h3>
+<h3>Install Nginx with command</h3>
 
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+5.a)<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 `apt-get install Nginx`
 
 By default, Nginx will not start automatically, so you need to use the following command. Other valid options are `stop` and `restart`.
