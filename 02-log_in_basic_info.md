@@ -106,4 +106,4 @@ At the Retype new UNIX password prompt, enter the same strong password that you 
 * Don't forget the new password that you set.
 
 You're now logged in! Where To Go From Here?  
-[Software Installation](Log_in_to_your_server_and_do_stuff.html).
+[Software Installation apt-get and npm](Log_in_to_your_server_and_do_stuff.html).
