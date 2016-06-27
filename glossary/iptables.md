@@ -16,4 +16,4 @@ When you install Ubuntu, iptables is there, but it allows all traffic by default
 
 $`info iptables`
 
-<a href="http://127.0.0.1:4000//defaultlinuxfw.html">Go :back: </a>
+[Go :back:](/defaultlinuxfw.html)
