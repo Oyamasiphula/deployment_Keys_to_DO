@@ -56,7 +56,7 @@ When UFW is enabled, it will be configured to write both IPv4 and IPv6 firewall 
 This tutorial is written with IPv4 in mind, but will work fine for IPv6 as long as you enable it.
 
 
-# Check UFW Status and Rules
+# :eyes: Check UFW Status and Rules :eyes:
 
 At any time, you can check the status of UFW with this command:
 `sudo ufw status verbose`
@@ -74,3 +74,26 @@ Logging: on (low)
 
 <h3>Default:</h3> deny (incoming), allow (outgoing), disabled (routed)
 New profiles: skip
+<pre><code>To           Action      	From
+--            ------     	----
+22/tcp        ALLOW IN   	 Anywhere
+</code></pre>
+
+# Configuring a Basic Firewall
+
+Firewalls provide a basic level of security for your server. These applications are responsible for denying traffic to every port on your server with exceptions for ports/services you have approved.
+
+
+Before we enable or reload our firewall, we will create the rules that define the exceptions to our policy. First, we need to create an exception for SSH connections so that we can maintain access for remote administration.
+
+
+The SSH daemon runs on port 22 by default and ufw can implement a rule by name if the default has not been changed. So if you have not modified SSH port, you can enable the exception by typing:<br />
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+`sudo ufw allow ssh`
+
+
+If you have modified the port that the SSH daemon is listening on, you will have to allow it by specifying the actual port number, along with the TCP protocol:<br />
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+`sudo ufw allow 4444/tcp`
+
+This is the bare minimum firewall configuration. It will only allow traffic on your SSH port and all other services will be inaccessible. If you plan on running additional services, you will need to open the firewall at each port required.
