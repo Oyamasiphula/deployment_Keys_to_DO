@@ -97,3 +97,32 @@ If you have modified the port that the SSH daemon is listening on, you will have
 `sudo ufw allow 4444/tcp`
 
 This is the bare minimum firewall configuration. It will only allow traffic on your SSH port and all other services will be inaccessible. If you plan on running additional services, you will need to open the firewall at each port required.
+
+If you plan on running an HTTP web server, you will need to allow access to port 80:<br />
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+`sudo ufw allow 80/tcp`
+
+
+If you plan to run a web server with SSL/TLS enabled, you should allow traffic to that port as well:<br />
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+`sudo ufw allow 443/tcp`
+
+
+If you need SMTP email enabled, port 25 will need to be opened:<br />
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+`sudo ufw allow 25/tcp`
+
+
+After you've finished adding the exceptions, you can review your selections by typing:<br />
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+`sudo ufw show added`
+
+
+If everything looks good, you can enable the firewall by typing:<br />
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+`sudo ufw enable`
+
+You will be asked to confirm your selection, so type `"y"` if you wish to continue. This will apply the exceptions you made, block all other traffic, and configure your firewall to start automatically at boot.
+
+
+Remember that you will have to explicitly open the ports for any additional services that you may configure later. For more in-depth information, check out our article on configuring the ufw firewall.
