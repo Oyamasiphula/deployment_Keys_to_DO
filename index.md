@@ -10,7 +10,7 @@ title: Index
 <br />
 0.You first have to open your browser and go to this link [an external link](http://digitalocean.com/).
 
-# Recommended Tools(Essentials)
+# Dev Tools(Essentials)
 
 <li> Virtual Private Server(Droplet)</li>
 <li> mysql-server</li>
