@@ -1,6 +1,6 @@
 <footer class="site-footer">
   <nav class="main-nav" id="menu">
-    <ol>
+    <ul>
       {% assign currentpage = page.url %}
       {% for page in site.pages %}
         {% unless page.url contains ".css" %}
@@ -9,6 +9,13 @@
           </li>
         {% endunless %}
       {% endfor %}
-    </ol>
+
+      <li>
+        <a href="{{ site.baseurl }}/Log_in_to_your_server_and_do_stuff.html" {% if currentpage == 'Log_in_to_your_server_and_do_stuff.html' %}class = "active"{% endif %}>{{ page.title }}</a>
+        <ul>
+          <a href="{{ site.baseurl }}/install_git.html" {% if currentpage == 'install_git.html' %}class = "active"{% endif %}>{{ page.title }}</a>
+        </ul>
+      </li>
+    </ul>
   </nav>
 </footer>
